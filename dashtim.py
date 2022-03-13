@@ -9,6 +9,6 @@ import plotly.graph_objs  as go
 # from appportal.mpnspm_2022
 # group by "KDMAP","DATEBAYAR"
 # '''
-superstore = pd.read_excel('superstore.xls')
+superstore = pd.read_excel('DASH\superstore.xls')
 
 scat = [go.Scatter(x = mpnspm[''])]
